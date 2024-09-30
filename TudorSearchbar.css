@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body{
+    margin: 4vh;
+
+}
+
+#home{
+    width:75%;
+    display: flex;
+    align-content: flex-start;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sidebar{
+    width: 25%;
+    border: 1px solid #eee;
+    padding:15px;
+    height:165vh;
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -5vh;
+}
+.data 
+{
+    width: 75%; /* Adjust the width to your preference */
+    border-radius: 3px;
+    height: 92vh;
+    overflow: auto;
+    display: flex; /* Add this to create a horizontal layout */
+    flex-wrap: wrap; /* Wrap the products to the next line if needed */
+    justify-content: space-between;
+}
+.searchbar{
+    width: 100%; /* Adjust the width to your preference */
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top:-110vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+}
+input{
+    border:none;
+    outline:none;
+    background:none;
+    text-align: left;
+}

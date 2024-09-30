@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body with a background image and font */
+body {
+    background-image: url('background.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+/* Style the header section */
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff0000; /* Change color on hover */
+    text-decoration: underline;
+}
+
+/* Style the main content section */
+main {
+    max-width: 1200px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+/* Style headings */
+h1, h3 {
+    color: #333;
+}
+
+h2{
+    color: #333;
+    text-align: center;
+}
+
+/* Style product features section */
+#features {
+    margin-top: 30px;
+}
+
+#features ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#features li {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    border-radius: 5px;
+}
+
+#features img {
+    transition: 3s;
+}
+
+#feature img:hover{
+    width:200px;
+    height: 200px;
+}
+
+.brand-container {
+    align-items: center;
+    display: flex;
+}
+
+.brand-details {
+    flex: 2;
+    margin-left: 250px;
+}
+
+.brand-details2 {
+    flex: 2;
+    margin-right: 10px;
+}
+
+.brand-image {
+    flex: 2;
+    margin-right: 200px;
+}
+
+.brand-image2 {
+    flex: 2;
+    margin-left: 160px;
+}
+
+/* Style the footer section */
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.center-button {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #070c11;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .centered-button {
+    text-align: center;
+    margin-top: 10px;
+}
+#recommend{
+    color: white;
+}

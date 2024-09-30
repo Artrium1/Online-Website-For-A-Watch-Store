@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Panda Online Watch Store</title>
+    <link rel="stylesheet" href="ContactUs.css">
+    <script src="ContactUs.js"></script>
+</head>
+<body>
+    <header>
+       <a href="HomePage.html"><img src="PandaLogo.jpg" alt="PandaLogo" width="550" height="150"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Event.html">Events</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contact-form">
+            <h2>Contact us at the store</h2>
+            <br>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <lable for="phone_number">Phone Number:</lable>
+                <input type="phone_number" id="phone_number" name="phone_number" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" id="submitBotton">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <div class="map">
+        <h1 style="margin: auto;">Our Location</h1><br>
+        <p>
+            <strong>Address:</strong><br>
+            123 Main Street, Setapak, Kuala Lumpur<br>
+        2023 © Panda Watches Sdn.Bhd. 198501011327 (143779-U).
+        <br> All Rights Reserved.<br><br><br>
+        </p>
+
+        <p class="mapposition"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.537812173428!2d101.72397681137495!3d3.2152551967464094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3843bfb6a031%3A0x2dc5e067aae3ab84!2sTunku%20Abdul%20Rahman%20University%20of%20Management%20and%20Technology%20(TAR%20UMT)!5e0!3m2!1sen!2smy!4v1695360184878!5m2!1sen!2smy"
+                width="800" height="400" style="border:0px; border-radius: 10px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+        </div>
+
+</body>
+    <footer>
+        <address>
+            <p>Email <a href="mailto:PandaWatches@gmail.com"><br>Send us a message</a></p>
+            <p>Phone <br> (60) 125105275</p>
+            <p>Location <br> 123 Main Street, Setapak, Kuala Lumpur</p>
+            <p>2023 © Panda Watches Sdn.Bhd. 198501011327 (143779-U). All Rights Reserved.</p>
+        </address>
+    </footer>
+</html>

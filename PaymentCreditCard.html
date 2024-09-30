@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link href="PaymentCreditCard.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="payment-form">
+        <h2>Payment Credit Card</h2>
+        <div class="image-container">
+            <img src="VisaLogo.jpg" alt="visa logo" class="card-picture">
+            <img src="MasterCardLogo.jpg" alt="master logo" class="card-picture">
+        </div>
+        <form action="PaymentSucessfull.html"  id="payment-form">
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
+            </div>
+            <div class="form-group">
+                <label for="card-holder">Card Holder</label>
+                <input type="text" id="card-holder" placeholder="XXX XXX XXX" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry">Expiration Date</label>
+                <input type="text" id="Expiration" placeholder="MM/YY" required>    
+            </div>
+            <div class="form-group">
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" placeholder="123" required>
+            </div>
+             <br><br>
+             <button type="submit" class="pay-button">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>

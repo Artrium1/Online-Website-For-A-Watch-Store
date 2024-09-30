@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 150px;
+}
+
+
+/* Style the body with a background image and font */
+body {
+    background-image: url('background.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+/* Style the header section */
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+.content{
+    background-color: rgb(188, 180, 180);
+    overflow: hidden;
+
+}
+
+.title h1{
+    color:rgb(0, 0, 0);
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:65px auto;
+}
+#ch{
+    display:none;
+}
+
+#ch:checked ~ .click{
+    display: block;
+}
+#ch:checked ~ label{
+    display: none;
+}
+.click{
+    display:none;
+}
+label{
+    display: inline-block;
+    cursor:pointer;
+    color:#fff;
+    background-color: #3a77c8;
+    padding:17px 24px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+.AboutUsContent{
+    flex:1;
+    width:600px;
+    margin:0px 25px;
+}
+.AboutUsContent h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color:#001330;
+}
+.AboutUsContent p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color:#4f4f4f;
+}
+
+.AboutUsContent label:hover{
+    background-color: #1305dc;
+    transform: scale(1.1);
+
+}
+.image{
+    flex:1;
+    width:200px;
+    margin:auto;
+
+}
+
+.image img {
+    width:100%;
+}
+
+img{
+    width:50%;
+    height:auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.center-button {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #070c11;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #565656;
+  }
+
+  .centered-button {
+    text-align: center;
+    margin-top: 10px;
+}

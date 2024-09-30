@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Panda Online Watch Store</title>
+    <link rel="stylesheet" href="recommend_site.css">
+</head>
+<body>
+    <header>
+       <a href="HomePage.html"><img src="PandaLogo.jpg" alt="PandaLogo" width="1500" height="150"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Event.html">Events</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+        <div class="h2">
+         <h2>Please comment under here</h2>
+         </div>
+            <form>
+                <div class="label">
+            <label for="inputbox">
+            <input type="text" id="inputField">
+            </label>
+                <button type="button" onclick="showAlert()">Submit</button>
+             </form>
+            </div>
+</body>
+
+<script>
+    function showAlert(){
+        const inputValue=document.getElementById("inputField").value;
+        if(inputValue===""){
+            alert("please enter something before submit");
+        }else{
+            alert("Thankyou for your comments")
+        }
+    }
+</script>
+<img src="giphy.gif" alt="giphy.gif">
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <address>
+        <p>Email <a href="mailto:PandaWatches@gmail.com"><br>Send us a message</a></p>
+        <p>Phone <a href="tel:+60 125105275"><br>+60 125105275</a></p>
+        <p>Location <br> 123 Main Street, Setapak, Kuala Lumpur</p>
+        <p>2023 © Panda Watches Sdn.Bhd. 198501011327 (143779-U). All Rights Reserved.</p>
+    </address>
+</footer>
+</html>
